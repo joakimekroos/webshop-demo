@@ -21,6 +21,7 @@ const SignUpForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
     if (password != confirmPassword) {
       alert("Passord not confirmed correctly");
       return;
